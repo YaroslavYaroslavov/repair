@@ -28,6 +28,7 @@ body {
 }
 
 .navbar {
+  background-color: #fdfdfd;
   padding: 8px 0;
 }
 
@@ -61,10 +62,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
 }
 
 .navbar__button {
   margin-left: 30px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
 .navbar__phone {
@@ -75,6 +80,7 @@ body {
   font-weight: 700;
   color: #333333;
   margin-top: 10px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -101,20 +107,21 @@ body {
 .hero-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding-right: 139px;
+  padding-right: 137px;
 }
 
 .hero-text__title {
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 40px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-weight: 700;
+  margin-bottom: 45px;
 }
 
 .hero-text__subtitle {
   display: inline-block;
   margin-bottom: 69px;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 65px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
 }
 
 .hero-list {
@@ -151,6 +158,8 @@ body {
 
 .hero-list__text {
   max-width: 300px;
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  font-weight: 300;
 }
 
 @media (max-width: 1200px) {
@@ -185,5 +194,23 @@ body {
   .hero-list__image {
     margin-right: 15px;
   }
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 /*# sourceMappingURL=style.css.map */

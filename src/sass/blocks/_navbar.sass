@@ -1,4 +1,5 @@
 .navbar
+    background-color: #fdfdfd
     padding: 8px 0
     &-block
         display: flex
@@ -11,8 +12,12 @@
     &__address
         display: flex
         flex-direction: column
+        font-family: 'Museo Sans Cyrl 300', sans-serif
+        font-size: 13px
+        line-height: 1.2
     &__button
         margin-left: 30px
+        font-family: 'Museo Sans Cyrl 700', sans-serif
     &__phone
         display: inline-block
         text-decoration: none
@@ -21,6 +26,7 @@
         font-weight: 700
         color: $text-color
         margin-top: 10px
+        font-family: 'Museo Sans Cyrl 700', sans-serif
 @media (max-width: 768px)
     .navbar
         &__contacts
