@@ -7,7 +7,7 @@
         align-items: center
     &-text
         flex-basis: 50%
-        padding-right: 137px
+        padding-right: 100px
         &__title
             font-size: 40px
             font-family: 'Museo Sans Cyrl 700', sans-serif
@@ -17,8 +17,6 @@
             display: inline-block
             margin-bottom: 69px
             font-size: 20px 
-            font-family: 'Museo Sans Cyrl 700', sans-serif
-            
     &-list
         padding: 0
         margin: 0
@@ -26,7 +24,8 @@
             display: flex
             align-items: center
             margin-bottom: 25px
-
+            &:last-child 
+                margin-bottom: 0
         &__image
             width: 40px
             height: 40px
@@ -47,7 +46,7 @@
         &-list
             margin-bottom: 44px
         &-text
-            padding-right: 0
+            padding-right: 10px
 @media(max-width: 768px)
     .hero
         &-text
