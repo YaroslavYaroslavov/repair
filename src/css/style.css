@@ -48,6 +48,7 @@ body {
   font-size: 24px;
   font-family: 'Museo Sans Cyrl 700', sans-serif;
   font-weight: 700;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -60,6 +61,10 @@ body {
   padding: 23 px;
   font-size: 15px;
   border-radius: 15px;
+}
+
+.arrows__left:hover, .arrows__right:hover {
+  cursor: pointer;
 }
 
 .navbar {
@@ -278,6 +283,7 @@ body {
 .offer__title {
   max-width: 360px;
   margin-bottom: 24px;
+  text-align: left;
 }
 
 .offer__subtitle {
@@ -399,5 +405,31 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.portfolio {
+  background-color: #f5f5f5;
+}
+
+.portfolio__title {
+  max-width: 50 0px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.portfolio-arrows {
+  max-width: 120px;
+  margin: auto;
+  margin-top: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider__img {
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
