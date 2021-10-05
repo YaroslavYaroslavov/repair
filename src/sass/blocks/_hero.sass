@@ -2,6 +2,7 @@
     background-color: #f4f6f4
     padding-top: 50px
     padding-bottom: 52px
+    min-width: 320px
     &-block
         display: flex
         align-items: center
@@ -39,6 +40,10 @@
             max-width: 300px
             font-family: 'Museo Sans Cyrl 300', sans-serif
             font-weight: 300
+    &-image
+        & img
+            width: 100%
+            
 @media(max-width: 1200px)
     .hero
         &-block
@@ -49,6 +54,8 @@
             padding-right: 10px
 @media(max-width: 768px)
     .hero
+        &-block
+            flex-direction: column
         &-text
             &__title
                 font-size: 24px
@@ -62,3 +69,4 @@
                 font-size: 12px 
             &__image 
                 margin-right: 15px
+        
