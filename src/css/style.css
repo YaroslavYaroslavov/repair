@@ -132,10 +132,6 @@ body {
   .navbar__button {
     margin-left: 0;
   }
-  .navbar-block {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
 }
 
 .hero {
