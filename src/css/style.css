@@ -23,6 +23,10 @@ body {
     max-width: 580px;
     width: 80%;
   }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .button {
@@ -59,13 +63,34 @@ body {
 
 .input {
   border: 1px solid #dddddd;
-  padding: 23 px;
+  padding: 20px 26px;
   font-size: 15px;
   border-radius: 15px;
+  margin: auto;
 }
 
 .arrows__left:hover, .arrows__right:hover {
   cursor: pointer;
+}
+
+.invalid {
+  display: block;
+  padding-bottom: 11px;
+  border: 1px solid red;
+}
+
+.invalid-offer {
+  display: inline-block;
+  padding-bottom: 11px;
+  border: 1px solid red;
+}
+
+div.invalid {
+  border: none;
+}
+
+div.invalid-offer {
+  border: none;
 }
 
 .navbar {
@@ -309,6 +334,8 @@ body {
 }
 
 .offer__input {
+  margin: auto;
+  max-width: 240px;
   margin-bottom: 30px;
 }
 
@@ -564,6 +591,161 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin: auto;
+  }
+}
+
+.brif {
+  background-image: url("../img/brifcolor.jpg"), url("../img/brifbg.jpg");
+  background-position: left center, right center;
+  background-size: 50%, cover;
+  background-repeat: repeat-y,no-repeat;
+}
+
+.brif-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brif__interview {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.brif__form {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 200px;
+  text-align: center;
+}
+
+.brif__input {
+  width: 100%;
+  max-width: 370px;
+  margin-bottom: 15px;
+}
+
+.brif__button {
+  height: 70px;
+  width: 100%;
+  max-width: 370px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.interview {
+  padding-right: 70px;
+}
+
+.interview__title {
+  font-size: 22px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  margin-bottom: 50px;
+}
+
+.interview__subtitle {
+  display: block;
+  margin-bottom: 95px;
+  font-size: 16px;
+}
+
+.interview-list {
+  list-style: none;
+  padding: 0;
+}
+
+.interview-list__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  margin-bottom: 25px;
+}
+
+.interview-list__counter {
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  min-width: 35px;
+  max-width: 35px;
+  margin-right: 30px;
+  min-height: 35px;
+  max-height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.interview-list__text {
+  max-width: 400px;
+}
+
+.form__title {
+  font-size: 22px;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  margin-bottom: 50px;
+}
+
+.form__subtitle {
+  display: block;
+  margin-bottom: 95px;
+  font-size: 16px;
+}
+
+.form__description {
+  display: block;
+}
+
+.brif__form {
+  padding-left: 30px;
+}
+
+.interview {
+  padding-right: 30px;
+}
+
+.interview__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.interview__subtitle {
+  margin-bottom: 30px;
+}
+
+.interview-list {
+  font-size: 14px;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.form__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.form__subtitle {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .brif {
+    background-image: url("../img/brifcolor.jpg"), url("../img/brifbg.jpg");
+    background-position: top center, bottom center;
+    background-size: 100% 50%, cover;
+    background-repeat: no-repeat,no-repeat;
+  }
+  .brif-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .brif__form {
+    margin-top: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */
